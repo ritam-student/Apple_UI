@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import imgs from "./images";
+import imgs from "./images/images";
 import './App.css'
 import Nav from "./Nav";
 import Slide from "./slide";
