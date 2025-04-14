@@ -6,8 +6,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Nav () {
 
     return (
-        <div className="md:h-[90px] h-[130px] ">
-            <div className="w-full md:h-[6vh] bg-black text-white bg-opacity-90  fixed top-0 left-0 z-50 text-[13px]  h-[6.8vh] px-[3vw] md:px-[10vw]  lg:px-[17vw] flex justify-between items-center ">
+        <div className=" h-auto ">
+            <div className="w-full md:h-[6vh] py-4 bg-black text-white bg-opacity-90  fixed top-0 left-0 bottom-4 z-50 text-[13px]  h-[8vh] px-[3vw] md:px-[10vw]  lg:px-[17vw] flex justify-between items-center ">
                 <FaApple className="lg:h-[17px] h-[23px] w-[23px] lg:w-[17px] opacity-85 hover:opacity-100 cursor-pointer" />
                 <a href="" className="opacity-75 hover:opacity-100 hidden lg:block">Store</a>
                 <a href="" className="opacity-75 hover:opacity-100 hidden lg:block">Mac</a>
@@ -30,7 +30,6 @@ function Nav () {
                 
             </div>
             
-            <p className="text-black absolute text-center top-[55px] text-[14px] left-[50%] translate-x-[-50%] md:w-full ">We’re donating $5 to the Global Fund for every purchase made with Apple Pay at Apple. Through 12/8. <span className="text-blue-500"> Shop   </span></p>
             
         </div>
     )
